@@ -1,0 +1,12 @@
+#creating a file 
+f=open('hello.txt','w')#data write ker ne ke liye w
+f.write("hello world this is file writer")
+f.write("\n")
+f.write("hello world this is file writer")
+f.close()
+
+#read operation////app data ko nato write ker sakte ho or na hi uda sekete ho
+f=open('hello.txt','r')
+data=f.read()
+print(data)
+f.close()
