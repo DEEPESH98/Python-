@@ -1,0 +1,22 @@
+import os
+dir(os)
+import time
+dir(time)
+
+'''for i in dir(time):
+    print(i)
+    time.sleep(1)
+   '''
+'''for i in dir(time):
+    if 'time' in i:
+        print(i)
+        '''
+'''x=[]
+for i in dir(time):
+    if 'time' in i:
+        x.append(i)
+print(x)        
+   '''
+'''first i ka matlab he kii eke variable jo sab kuch store kere ga.'''
+y=[i for i in dir(time) if 'time' in i]
+print(y)
