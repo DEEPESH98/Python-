@@ -1,0 +1,14 @@
+import time
+from googlesearch import search
+web = input("plz enter topic : ")
+
+#now time for search
+url=[]
+
+for i in search(web,stop=10):
+        print(i) # i will only print url
+        time.sleep(1)
+        url.append(i)
+        
+print(url)
+        
